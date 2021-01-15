@@ -60,7 +60,7 @@ var studenti = [
 var studenteAggiunto = {
   nome : prompt('Inserisci qui il tuo nome'),
   cognome : prompt('Inserisci qui il tuo cognome'),
-  eta : prompt('Inserisci qui la tua eta')
+  eta : parseInt(prompt('Inserisci qui la tua eta'))
 }
 
 studenti.push(studenteAggiunto);
